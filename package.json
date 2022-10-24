@@ -1,0 +1,15 @@
+{
+  "name": "car-service-task",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Andrey Losikhin",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "car-service-api",
+    "vendors-mock-consumer"
+  ],
+  "scripts": {
+    "start": "yarn workspace car-service-api start & yarn workspace vendors-mock-consumer start"
+  }
+}

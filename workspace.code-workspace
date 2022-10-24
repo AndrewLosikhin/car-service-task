@@ -1,0 +1,48 @@
+{
+  "folders": [
+    {
+      "name": "Api",
+      "path": "car-service-api"
+    },
+    {
+      "name": "Vendors Mock Consumer",
+      "path": "vendors-mock-consumer"
+    },
+    {
+      "name": "Root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    /* eslint */
+    "eslint.alwaysShowStatus": true,
+    /* editor & workbench */
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.addMissingImports": true,
+      "source.fixAll.eslint": true,
+      "source.sortMembers": true
+    },
+    "editor.tabSize": 2,
+    "editor.foldingImportsByDefault": true,
+    "editor.wordBasedSuggestions": false,
+    "workbench.tree.indent": 16,
+    /* ts/js */
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggestionActions.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/.vscode": true
+    },
+    "git.mergeEditor": true,
+    "git.branchProtection": ["master", "develop"],
+    "vscode-graphql.cacheSchemaFileForLookup": true
+  }
+}
